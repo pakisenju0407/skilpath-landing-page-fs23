@@ -1,0 +1,515 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#navbar {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1450A3;
+}
+
+#navbar #logo {
+    width: 102px;
+    max-height: 36px;
+    margin-left: 30px;
+    list-style: none;
+}
+
+#navbar #logo a {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#navbar #main-menu {
+    min-width: 613px;
+    max-height: 31px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 358px;
+    list-style: none;
+}
+
+#navbar #main-menu a {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+#navbar #main-menu a:hover {
+    color: #dedede;
+}
+
+#navbar #login-menu {
+    min-width: 240px;
+    max-height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#navbar #login-menu #masuk a {
+    width: 140px;
+    height: 40px;
+    background-color: #191D88;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.125em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+#navbar #login-menu #masuk a:hover {
+    background-color: #1d229d;
+    color: #dedede;
+}
+
+#navbar #login-menu #daftar a {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+#navbar #login-menu #daftar a:hover {
+    color: #dedede;
+}
+
+#hero {
+    width: 100%;
+    height: 356px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #337CCF;
+}
+
+#hero #hero-text {
+    margin-left: 20px;
+}
+
+#hero #hero-text h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2.000em;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#hero #hero-text p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.125em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#hero #hero-text a {
+    width: 172px;
+    height: 48px;
+    background-color: #191D88;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    margin-top: 12px;
+}
+
+#hero #hero-text a:hover{
+    background-color: #1d229d;
+    color: #dedede;
+}
+
+#hero #hero-img img {
+    width: 331px;
+    height: 308px;
+    padding-right: 20px;
+}
+
+#features {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#features .content {
+    width: 700px;
+    height: 350px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#features h2 {
+    width: 100%;
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 32px;
+}
+
+#features .content .card-features {
+    width: 340px;
+    height: 119px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px 1px #888888;
+}
+
+#features .content .card-features .card-title {
+    width: 300px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#features .content .card-features .card-title h3 {
+    color: #337CCF;
+    font-family: 'Poppins';
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+#features .content .card-features .card-title img {
+    width: 24px;
+    height: 24px;
+}
+
+#features .content .card-features .card-text p {
+    width: 300px;
+    color: #888888;
+    font-family: 'Poppins';
+    font-size: 0.9em;
+    font-weight: 400;
+    text-align: justify;
+}
+
+#products {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#products h2 {
+    width: 100%;
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 32px;
+}
+
+#products .content {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#products .content .card-products {
+    width: 182px;
+    height: 361px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 10px;
+}
+
+#products .content .card-products .thumbnail-products img {
+    width: 182px;
+    height: 271px;
+    border-radius: 6px;
+    transition: transform 0.4s, border-radius 0.4s;
+}
+
+#products .content .card-products .thumbnail-products img:hover {
+    transform: scale(1.05);
+    border-radius: 0px;
+}
+
+#products .content .card-products .card-text h4 {
+    width: 182px;
+    font-family: 'Poppins';
+    font-size: 0.8750em;
+    font-weight: 600;
+    text-align: justify;
+    margin-top: 12px;
+}
+
+#products .content .card-products .card-text p {
+    width: 182px;
+    color: #888888;
+    font-family: 'Poppins';
+    font-size: 0.8750em;
+    font-weight: 400;
+    text-align: justify;
+}
+
+#products .content .card-products .card-text p a {
+    color: #337CCF;
+    text-decoration: none;
+}
+
+#our-team {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1450A3;
+}
+
+#our-team h2 {
+    width: 100%;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 32px;
+}
+
+#our-team .content {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#our-team .content .card-teams {
+    width: 300px;
+    height: 100px;
+    background-color: #337CCF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#our-team .content .card-teams .photo-profile img {
+    width: 72px;
+    height: 72px;
+    border-radius: 8px;
+}
+
+#our-team .content .card-teams .card-text h4 {
+    width: 165px;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 0.8750em;
+    font-weight: 600;
+    text-align: justify;
+}
+
+#our-team .content .card-teams .card-text p {
+    width: 165px;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 0.8750em;
+    font-weight: 400;
+    text-align: justify;
+}
+
+#footer {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #1450A3;
+}
+
+#footer #footer-text p {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 0.8750em;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+#about-us {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#about-us .content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#about-us .content #about-detail {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#about-us .content #about-detail h2 {
+    width: 100%;
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 24px;
+}
+
+#about-us .content #about-detail p {
+    width: 100%;
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 0.8750em;
+    font-weight: 400;
+    text-align: justify;
+    margin-top: 12px;
+}
+
+#about-us .content #contact {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#about-us .content #contact h2 {
+    width: 100%;
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 24px;
+}
+
+#about-us .content #contact form {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+}
+
+#about-us .content #contact form input {
+    width: 100%;
+    height: 12px;
+    display: flex;
+    margin-bottom: 12px;
+    padding: 12px;
+    border: 1.6px solid #000;
+    border-radius: 6px;
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 0.8750em;
+    font-weight: 400;
+}
+
+#about-us .content #contact form input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+#about-us .content #contact form label {
+    width: 97%;
+    display: flex;
+    margin-bottom: 12px;
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 0.8750em;
+    font-weight: 400;
+}
+
+#about-us .content #contact form #status {
+    width: 3%;
+    margin-bottom: 12px;
+}
+
+#about-us .content #contact form button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #191D88;
+    border: 1.6px solid #000;
+    border-radius: 6px;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 0.8750em;
+    font-weight: 600;
+}
+
+#about-us .content #contact form button:hover {
+    background-color: #1d229d;
+    color: #dedede;
+    cursor: pointer;
+}
